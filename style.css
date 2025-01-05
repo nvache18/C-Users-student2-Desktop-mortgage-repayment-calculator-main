@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    
+}
+
+body{
+    background-color: hsl(202, 86%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.d1{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.headline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+
+    margin-bottom: 20px;
+}
+.h1{
+    color:hsl(202, 55%, 16%) ;
+}
+.b1{
+    text-decoration: underline;
+    color: hsl(200, 26%, 54%);
+    border: 0px;
+    background-color: white;
+    cursor: pointer;
+}
+.b1:hover{
+    color: hsl(201, 34%, 70%);
+}
+.Amount{
+    display: flex;
+    flex-direction: column;
+}
+.mortgage{
+    display: flex;
+    margin-top: 10px;
+}
+.p2{
+    background-color: hsl(61, 70%, 52%);
+    border: 10px solid hsl(61, 70%, 52%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.i1{
+    border: 1px solid hsl(61, 70%, 52%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.container2{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.term{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    display: flex;
+    margin-top: 10px;
+}
+.i2{
+    border: 0px;
+    border-radius: 5px;
+}
+.input{
+    border: 1px solid hsl(202, 55%, 16%);
+    border-radius: 5px;
+
+}
+.p3{
+    background-color:hsl(202, 86%, 94%) ;
+    border: 10px solid hsl(202, 86%, 94%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.mortgage-type
+{
+    margin-top: 20px;
+    
+    gap: 20px;
+}
+.container3{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.repayment{
+    display: flex;
+    gap: 5px;
+    border: 1px solid hsl(61, 56%, 50%);
+    border-radius: 5px;
+    background-color: hsl(61, 69%, 85%);
+    padding: 5px;
+
+}
+.i3{
+    accent-color: hsl(61, 70%, 52%);
+    padding: 3px;
+}
+.b2{
+    border-radius: 50px;
+    border: 0px;
+    padding: 10px;
+    background-color:hsl(61, 70%, 52%) ;
+    margin-top: 10px;
+    
+}
